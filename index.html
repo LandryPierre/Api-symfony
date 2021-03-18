@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Covid Time</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <span id="radios">     
+        <label>Pays<input id="pays" type="radio" name="type" checked="checked" value="pays"></label>     
+        <label>Continent<input id="continent" type="radio" name="type" value="continent"></label>
+    </span>     
+    <input id="queryLoc" type="text" />
+    <input type="button" value="Hier" onclick="buttonClickGET()" />
+    <p id="zone_covid"></p>
+
+  </body>
+</html>
